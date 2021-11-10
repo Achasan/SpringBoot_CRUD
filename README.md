@@ -13,7 +13,7 @@
 ### SpringBoot(Controller)
 - @RequestParam, @ModelAttribute 애노테이션을 사용하여 요청파라미터 받아오기
 - GetMapping, PostMapping 방식을 통해 같은 URL이지만 다른 비즈니스 로직이 작동하도록 구현
-- PathVariable을 통해 아이템을 조회, 수정, 삭제가 가능하도록 구현
+- PathVariable을 통해 아이템ID를 URL에 넣어서 조회, 수정, 삭제가 가능하도록 구현
 - RedirectAttribute 객체를 사용하여 Redirect시 쿼리파라미터를 전달
 - PRG(Post Redirect Get)방식으로 아이템 추가 시 중복요청이 처리되지 않도록 구현
 
